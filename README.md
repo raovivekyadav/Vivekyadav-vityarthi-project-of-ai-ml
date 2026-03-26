@@ -49,10 +49,6 @@ It helps in **early detection** and supports preventive healthcare.
 3. Apply trained ML model  
 4. Generate prediction  
 
-**Output:**
-- `0` → No Heart Disease  
-- `1` → Likely Heart Disease  
-
 ---
 
 ## Results                                                                                                                               
