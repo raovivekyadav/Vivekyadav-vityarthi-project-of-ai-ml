@@ -1,20 +1,20 @@
-# ❤️ Heart Disease Prediction System Using Machine Learning
+#  Heart Disease Prediction System Using Machine Learning
 
-## 📌 Overview
+##  Overview
 This project is a **Machine Learning-based system** that predicts the likelihood of heart disease using basic health parameters like BMI, heart rate, age, and blood pressure.
 
 It helps in **early detection** and supports preventive healthcare.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Build a predictive model using health parameters  
 - Analyze the importance of different features  
 - Achieve good prediction accuracy  
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 - Algorithm Used: **Logistic Regression**
 - Dataset split into:
   - Training Set
@@ -24,7 +24,7 @@ It helps in **early detection** and supports preventive healthcare.
 
 ---
 
-## 📊 Parameters Used
+##  Parameters Used
 - Body Mass Index (BMI)  
 - Heart Rate  
 - Breathing Rate  
@@ -34,7 +34,7 @@ It helps in **early detection** and supports preventive healthcare.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python  
 - Pandas  
 - NumPy  
@@ -43,7 +43,7 @@ It helps in **early detection** and supports preventive healthcare.
 
 ---
 
-## ⚙️ Project Workflow
+##  Project Workflow
 1. Input health parameters  
 2. Data preprocessing  
 3. Apply trained ML model  
@@ -55,13 +55,13 @@ It helps in **early detection** and supports preventive healthcare.
 
 ---
 
-📈 Results                                                                                                                               
+## Results                                                                                                                               
 Achieved reasonable accuracy on sample dataset                                                                                            
 Successfully predicts heart disease risk                                                                                                  
 
 ---
 
-🔮 Future Scope                                                                                                                          
+## Future Scope                                                                                                                          
 Use real-world datasets                                                                                                                   
 Improve accuracy using advanced models                                                                                                    
 Build a GUI/Web App                                                                                                                       
@@ -69,6 +69,6 @@ Integrate with IoT health devices
 
 ---
 
-👨‍💻 Author                                                                                                                                
+## Author                                                                                                                                
 VIVEK YADAV                                                                                                                               
 Regn no.:- 25BCE10950
