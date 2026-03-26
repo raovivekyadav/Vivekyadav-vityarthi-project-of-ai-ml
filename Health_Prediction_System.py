@@ -1,5 +1,4 @@
 # Health Prediction System
-
 def heart_score(bmi, hr, br, age, bp, oxy):
     score = 0
     if bmi > 30:
@@ -16,7 +15,6 @@ def heart_score(bmi, hr, br, age, bp, oxy):
         score += 1
     return score
 
-
 def diabetes_score(bmi, age, bp):
     score = 0
     if bmi > 30:
@@ -26,7 +24,6 @@ def diabetes_score(bmi, age, bp):
     if bp > 130:
         score += 1
     return score
-
 
 def lung_score(br, oxy, hr):
     score = 0
@@ -38,7 +35,6 @@ def lung_score(br, oxy, hr):
         score += 1
     return score
 
-
 def heart_result(score):
     if score >= 4:
         return "High Risk of Heart Disease"
@@ -47,13 +43,11 @@ def heart_result(score):
     else:
         return "Low Risk of Heart Disease"
 
-
 def diabetes_result(score):
     if score >= 2:
         return "Diabetes Risk High"
     else:
         return "Diabetes Risk Low"
-
 
 def lung_result(score):
     if score >= 2:
@@ -64,17 +58,14 @@ def lung_result(score):
 
 def main():
     print("Health Prediction System")
-
     while True:
         print("\nEnter Details:")
-
         bmi = float(input("Enter BMI: "))
         heart = int(input("Enter Heart Rate: "))
         breath = int(input("Enter Breathing Rate: "))
         age = int(input("Enter Age: "))
         pressure = int(input("Enter Blood Pressure: "))
         oxygen = int(input("Enter Oxygen Level: "))
-
         # Scores
         heart_s = heart_score(bmi, heart, breath, age, pressure, oxygen)
         diabetes_s = diabetes_score(bmi, age, pressure)
@@ -104,6 +95,5 @@ def main():
         if choice != "yes":
             print("Program Ended")
             break
-
 
 main()
